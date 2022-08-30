@@ -8,7 +8,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("http://172.31.23.18/messages")
+    fetch("http://3.211.250.11/messages")
         .then(res => res.json())
         .then(
             (result) => {
